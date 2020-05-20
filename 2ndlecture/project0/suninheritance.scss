@@ -1,0 +1,19 @@
+%message {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mag {
+    @extend %message;
+    background-color: green;
+}
+
+.var{
+    @extend %message;
+    background-color: orange;
+}
+

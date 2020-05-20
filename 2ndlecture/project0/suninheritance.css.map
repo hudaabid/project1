@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAS;EACL,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;;AAGhB,IAAK;EAED,gBAAgB,EAAE,KAAK;;AAG3B,IAAI;EAEA,gBAAgB,EAAE,MAAM",
+"sources": ["suninheritance.scss"],
+"names": [],
+"file": "suninheritance.css"
+}
