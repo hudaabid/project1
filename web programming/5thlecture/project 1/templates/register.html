@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+
+<style>    @media (max-width: 499px) {
+    body {
+        background-color:pink;
+
+    }}
+    </style>
+
+{% block heading %}
+<h1>WELCOME TO THE BOOK REVIEW PAGE</h1>
+
+{% endblock %}
+{% block body %}
+
+<h4>If you are new to this website, then signup now! or just login in if you have already registered.</h4>
+<div class="col-sm-3 text-white">
+
+<a href= "{{url_for('signup')}}" class="btn btn-info" role="button">signup</a>
+
+
+<a href="{{url_for('login')}}"  class="btn btn-info" role="button">login</a>
+
+</div>
+<p>Go ahead and find whats good for you to read...</p>
+
+{% endblock %}

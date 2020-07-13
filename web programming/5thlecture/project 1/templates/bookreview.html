@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<h3>Reviews</h3>
+<p style="margin-left: 40px;">Your review has been added to the list now. checkout using the *reviews* button on the previous page</p>
+
+{% for review in review %}
+<ul class="list-group ">
+    <div class="container">
+<li class="list-group-item disabled" style="font-weight: bold;">{{review.username}}</li>
+<li class="list-group-item disabled" > review_rating: {{review.review_rating}}</li>
+<li class="list-group-item disabled" >review_text: {{review.review_text}}</li>
+    </div>
+</ul>
+{% endfor %}
+
+{% endblock %}

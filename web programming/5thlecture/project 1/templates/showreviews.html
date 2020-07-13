@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Books
+{% endblock %}
+
+{% block body %}
+    <h1>Reviews given on this page</h1>
+    <ul class="list-group ">
+        
+        {% for reviews in review %}
+        <div class="container">
+            <li class="list-group-item disabled" style="font-weight: bold;">{{ reviews.username }} </li>
+            <li class="list-group-item disabled"> review_rating: {{ reviews.review_rating }} </li>
+            <li class="list-group-item disabled"> review_text: {{ reviews.review_text}} </li>
+        </div>
+        {% endfor %}
+    
+    </ul>
+
+
+
+{% endblock %}

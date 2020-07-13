@@ -1,0 +1,8 @@
+signup
+login
+logout
+import
+search
+book page
+review submission
+/api/isbn
